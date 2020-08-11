@@ -1,1 +1,1 @@
-# Dll - Game of Life
+# Dll for "Game of Life"
