@@ -8,3 +8,9 @@ Conway's Game of Life. This is repository includes a DLL which can help you to m
 - [Methods](#Methods)
 
 # Methods
+
+## Generation
+
+## CountOfNeighbors
+
+## GetGeneration
