@@ -2,4 +2,6 @@
 
 # Dll for "Game of Life"
 
+Conway's Game of Life. This is repository includes a DLL which can help you to make a "Game of Life". 
+
 ## Contents
