@@ -7,10 +7,12 @@ Conway's Game of Life. This is repository includes a DLL which can help you to m
 ## Contents
 - [Methods](#Methods)
 
-# Methods
+# Ctor
 
-## Generation
+## Methods
 
-## CountOfNeighbors
+- Generation
 
-## GetGeneration
+- CountOfNeighbors
+
+- GetGeneration
