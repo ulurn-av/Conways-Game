@@ -39,19 +39,21 @@ namespace Engine
 
         public void Generation()
         {
-            bool[,] NewField = Field;
+            bool[,] NewField = new bool[Columns, Rows];
 
             for (int x = 0; x < Columns; x++)
             {
                 for (int y = 0; y < Rows; y++)
                 {
                     int countNeighbors = CountOfNeighbors(x, y);
-                    bool HaseLife = NewField[x, y];
+                    bool HaseLife = Field[x, y];
 
                     if (!HaseLife && countNeighbors == 3)
                         NewField[x, y] = true;
                     else if (HaseLife && (countNeighbors < 2 || countNeighbors > 3))
                         NewField[x, y] = false;
+                    else
+                        NewField[x, y] = Field[x, y];
                 }
             }
 
