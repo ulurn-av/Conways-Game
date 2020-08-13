@@ -39,7 +39,8 @@ Method is using without parameters, and using for build a next generation.
 ```sh
   private int CountOfNeighbors(int x, int y)
 ```
-Method is using with 2 parameters, and using by method Generation for count of neigbhors cell.
+Method is using with 2 parameters, and using by method Generation for count of neighbors cell.
+Generally you won't use this method he is exist for Generation method.
 
 - GetGeneration
 
