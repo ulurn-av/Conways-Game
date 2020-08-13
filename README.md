@@ -9,6 +9,22 @@ Conway's Game of Life. This is repository includes a DLL which can help you to m
 
 ## Ctor
 
+```sh
+  public GameLogic(int rows, int columns, int density = 2) {}
+```
+You can use ctor with 3 or 2 parameters without them you can't.
+
+For exemple you can call Ctor like that:
+```sh
+  static GameLogic gameLogic = new GameLogic
+  (
+      rows: Console.WindowHeight,
+      columns: Console.WindowWidth,
+      density: density
+  );
+```
+Or without density.
+
 ## Methods
 
 - Generation
