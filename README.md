@@ -50,7 +50,6 @@ Generally you won't use this method he is exist for Generation method.
 ```
 GetGeneration is return an array bool[,]. This method using for getting a generation and then output it in Console or PictureBox in Windows Forms.
 
-# Instruction
-- You need to download a Dll.
-https://github.com/breath-of-air/Conways-Game/raw/master/Engine%20of%20the%20game/Engine.dll
-- 
+# Download a Dll
+- https://github.com/breath-of-air/Conways-Game/raw/master/Engine%20of%20the%20game/Engine.dll
+
