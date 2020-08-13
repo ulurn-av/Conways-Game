@@ -32,8 +32,18 @@ Or without density.
 ```sh
   public void Generation() {}
 ```
-Method use without parameters
+Method is using without parameters, and using for build a next generation.
 
 - CountOfNeighbors
 
+```sh
+  private int CountOfNeighbors(int x, int y)
+```
+Method is using with 2 parameters, and using by method Generation for count of neigbhors cell.
+
 - GetGeneration
+
+```sh
+  public bool[,] GetGeneration()
+```
+GetGeneration is return an array bool[,]. This method using for getting a generation and then output it in Console or PictureBox in Windows Forms.
