@@ -29,6 +29,10 @@ Or without density.
 ## Methods
 
 - Generation
+```sh
+  public void Generation() {}
+```
+Method use without parameters
 
 - CountOfNeighbors
 
