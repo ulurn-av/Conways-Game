@@ -5,8 +5,8 @@
 Conway's Game of Life. This is repository includes a DLL which can help you to make a "Game of Life". 
 
 ## Contents
-- [Ctor](#Ctor)
-- [Methods](#Methods)
+- [Ctor](#ctor)
+- [Methods](#methods)
 - [Download](#download-a-dll)
 
 ## Ctor
