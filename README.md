@@ -7,6 +7,7 @@ Conway's Game of Life. This is repository includes a DLL which can help you to m
 ## Contents
 - [Ctor](#Ctor)
 - [Methods](#Methods)
+- [Instruction](#Instruction)
 
 ## Ctor
 
@@ -49,7 +50,7 @@ Generally you won't use this method he is exist for Generation method.
 ```
 GetGeneration is return an array bool[,]. This method using for getting a generation and then output it in Console or PictureBox in Windows Forms.
 
-# How to download and use it
+# Instruction
 - You need to download a Dll.
 https://github.com/breath-of-air/Conways-Game/raw/master/Engine%20of%20the%20game/Engine.dll
 - 
