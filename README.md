@@ -14,7 +14,7 @@ Conway's Game of Life. This is repository includes a DLL which can help you to m
 ```
 You can use ctor with 3 or 2 parameters without them you can't.
 
-For exemple you can call Ctor like that:
+For exemple you can call ctor like that:
 ```sh
   static GameLogic gameLogic = new GameLogic
   (
